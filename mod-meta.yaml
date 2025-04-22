@@ -1,5 +1,5 @@
-﻿Name: Y0 Majima
+﻿Name: Bite of the Mad Dog
 Author: xtrm
-Version: 0.0.1
-Description: "Mod description example.\nThis is in a new line.\n\nYou can use single (') or double (\") quotes in your text.\n\nIf you want your text to be more organized in the yaml file, make sure the new line is indented (press TAB)."
+Version: 1.0.0
+Description: A mod that reworks the attacks and UI of Yakuza 3 to be similar to Goro Majima's movesets in games like Yakuza 0, Kiwami 2, Ishin, and Dead Souls.
 Dependencies: 
