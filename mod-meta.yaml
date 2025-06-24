@@ -1,5 +1,5 @@
 ﻿Name: Bite of the Mad Dog
 Author: xtrm
 Version: 2.0.0
-Description: A mod that reworks the attacks and UI of Yakuza 3 to be similar to Goro Majima's movesets in games like Kenzan, Yakuza 4, Dead Souls, Ishin, 0, Like A Dragon and Pirate Yakuza.
-Dependencies: 
+Description: A mod that adds Goro Majima's Style Switching from Yakuza 0 and Pirate Yakuza to Yakuza 3. Other animations are used from games such as Kenzan, Yakuza 4, Dead Souls, Ishin, Like A Dragon, Gaiden and Infinite Wealth. UI changes to the health bars and other menus are also included.
+Dependencies: Ogre Command, too much juggling, Infinite Durability
