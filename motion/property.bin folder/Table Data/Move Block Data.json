@@ -301167,7 +301167,7 @@
           "Hitbox": {
             "HitboxLocation1": 0,
             "HitboxLocation2": 32768,
-            "Flags": "1227",
+            "Flags": "0007",
             "Damage": 9,
             "Heat": 10
           }
@@ -301308,7 +301308,7 @@
           "Hitbox": {
             "HitboxLocation1": 0,
             "HitboxLocation2": 32768,
-            "Flags": "40b7",
+            "Flags": "0007",
             "Damage": 6,
             "Heat": 10
           }
@@ -329381,7 +329381,7 @@
   "p_weaponG_combo_heavy_01_lp": {
     "Move Data": {
       "Unk 0": 16,
-      "MEP Table ID": "p_weaponG_atk_tame",
+      "MEP Table ID": "e_KAZ_atk_punch_heavy",
       "Unk 1": 0,
       "Unk 2": 2,
       "Unk 3": 0,
@@ -329413,33 +329413,11 @@
         "Property 1| Type ID 3 = Follow Up Lock": {
           "Property Data": {
             "StartFrame": 0,
-            "EndFrame": 5,
+            "EndFrame": 1,
             "Modifier": 0,
             "Unk 1": 0,
             "Unk 2": 0,
             "Property Type ID": 3,
-            "Unk Value": 0
-          }
-        },
-        "Property 2| Type ID 20": {
-          "Property Data": {
-            "StartFrame": 1,
-            "EndFrame": 1,
-            "Modifier": 0,
-            "Unk 1": 6,
-            "Unk 2": 0,
-            "Property Type ID": 20,
-            "Unk Value": 0
-          }
-        },
-        "Property 3| Type ID 20": {
-          "Property Data": {
-            "StartFrame": 14,
-            "EndFrame": 14,
-            "Modifier": 0,
-            "Unk 1": 6,
-            "Unk 2": 0,
-            "Property Type ID": 20,
             "Unk Value": 0
           }
         }
@@ -329695,7 +329673,7 @@
         "Property 1| Type ID 3 = Follow Up Lock": {
           "Property Data": {
             "StartFrame": 0,
-            "EndFrame": 19,
+            "EndFrame": 23,
             "Modifier": 0,
             "Unk 1": 0,
             "Unk 2": 0,
@@ -329703,18 +329681,7 @@
             "Unk Value": 0
           }
         },
-        "Property 2| Type ID 18 = Camera Shake": {
-          "Property Data": {
-            "StartFrame": 5,
-            "EndFrame": 5,
-            "Modifier": 0,
-            "Unk 1": 1,
-            "Unk 2": 0,
-            "Property Type ID": 18,
-            "Unk Value": 0
-          }
-        },
-        "Property 3| Type ID 2 = Audio": {
+        "Property 2| Type ID 2 = Audio": {
           "Property Data": {
             "StartFrame": 11,
             "EndFrame": 11,
@@ -329733,7 +329700,7 @@
             "Unk 5": 0
           }
         },
-        "Property 4| Type ID 2 = Audio": {
+        "Property 3| Type ID 2 = Audio": {
           "Property Data": {
             "StartFrame": 2,
             "EndFrame": 2,
@@ -329752,7 +329719,7 @@
             "Unk 5": -1
           }
         },
-        "Property 5| Type ID 30 = Hyper Armor Control": {
+        "Property 4| Type ID 30 = Hyper Armor Control": {
           "Property Data": {
             "StartFrame": 0,
             "EndFrame": 16,
@@ -329761,6 +329728,24 @@
             "Unk 2": 0,
             "Property Type ID": 30,
             "Unk Value": 0
+          }
+        },
+        "Property 5| Type ID 5 = Hitbox": {
+          "Property Data": {
+            "StartFrame": 6,
+            "EndFrame": 10,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 5,
+            "Unk Value": 0
+          },
+          "Hitbox": {
+            "HitboxLocation1": 0,
+            "HitboxLocation2": 32768,
+            "Flags": "0007",
+            "Damage": 5,
+            "Heat": 10
           }
         }
       }
