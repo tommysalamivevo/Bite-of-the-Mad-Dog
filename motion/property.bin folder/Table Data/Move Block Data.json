@@ -301372,7 +301372,7 @@
           "Hitbox": {
             "HitboxLocation1": 4,
             "HitboxLocation2": 32768,
-            "Flags": "e0a6",
+            "Flags": "2306",
             "Damage": 9,
             "Heat": 10
           }
@@ -301524,7 +301524,7 @@
           "Hitbox": {
             "HitboxLocation1": 4,
             "HitboxLocation2": 32768,
-            "Flags": "e0b6",
+            "Flags": "9121",
             "Damage": 7,
             "Heat": 10
           }
@@ -329746,6 +329746,361 @@
             "Flags": "0007",
             "Damage": 5,
             "Heat": 10
+          }
+        }
+      }
+    }
+  },
+  "p_weaponG_combo_heavy_02_lp": {
+    "Move Data": {
+      "Unk 0": 16,
+      "MEP Table ID": "e_KAZ_atk_punch_heavy",
+      "Unk 1": 0,
+      "Unk 2": 2,
+      "Unk 3": 0,
+      "Unk 4": 30,
+      "GMT Table ID": "p_weaponG_combo_heavy_02_lp",
+      "Unk 6": 0,
+      "Unk 7": 0,
+      "Unk 8": 0,
+      "Unk 9": 0,
+      "Unk 10": 0,
+      "Unk 11": 0,
+      "Unk 12": 3,
+      "Unk 13": 1,
+      "Unk 14": 1,
+      "Unk 15": 0,
+      "Unk 16": 0,
+      "Unk 17": 0,
+      "Unk 18": 0,
+      "Unk 19": 1280,
+      "Unk 20": 0,
+      "Unk 21": 0,
+      "Unk 22": 0,
+      "Unk 23": 0,
+      "Unk 24": 0
+    },
+    "Move Properties": {
+      "Filler Property Unk": 0,
+      "Properties Table": {
+        "Property 1| Type ID 3 = Follow Up Lock": {
+          "Property Data": {
+            "StartFrame": 0,
+            "EndFrame": 2,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 3,
+            "Unk Value": 0
+          }
+        }
+      }
+    }
+  },
+  "p_weaponG_combo_heavy_02_end": {
+    "Move Data": {
+      "Unk 0": 16,
+      "MEP Table ID": "p_weaponG_atk_tame_end",
+      "Unk 1": 0,
+      "Unk 2": 2,
+      "Unk 3": 0,
+      "Unk 4": 52,
+      "GMT Table ID": "p_weaponG_combo_heavy_02_end",
+      "Unk 6": 0,
+      "Unk 7": 0,
+      "Unk 8": 0,
+      "Unk 9": 0,
+      "Unk 10": 0,
+      "Unk 11": 0,
+      "Unk 12": 3,
+      "Unk 13": 1,
+      "Unk 14": 1,
+      "Unk 15": 0,
+      "Unk 16": 0,
+      "Unk 17": 0,
+      "Unk 18": 0,
+      "Unk 19": 1280,
+      "Unk 20": 0,
+      "Unk 21": 0,
+      "Unk 22": 0,
+      "Unk 23": 0,
+      "Unk 24": 0
+    },
+    "Move Properties": {
+      "Filler Property Unk": 0,
+      "Properties Table": {
+        "Property 1| Type ID 4 = Control Lock": {
+          "Property Data": {
+            "StartFrame": 46,
+            "EndFrame": 52,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 4,
+            "Unk Value": 0
+          }
+        },
+        "Property 2| Type ID 11": {
+          "Property Data": {
+            "StartFrame": 1,
+            "EndFrame": 4,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 11,
+            "Unk Value": 0
+          }
+        },
+        "Property 3| Type ID 18 = Camera Shake": {
+          "Property Data": {
+            "StartFrame": 8,
+            "EndFrame": 8,
+            "Modifier": 0,
+            "Unk 1": 3,
+            "Unk 2": 0,
+            "Property Type ID": 18,
+            "Unk Value": 0
+          }
+        },
+        "Property 4| Type ID 18 = Camera Shake": {
+          "Property Data": {
+            "StartFrame": 10,
+            "EndFrame": 10,
+            "Modifier": 0,
+            "Unk 1": 4,
+            "Unk 2": 0,
+            "Property Type ID": 18,
+            "Unk Value": 0
+          }
+        },
+        "Property 5| Type ID 5 = Hitbox": {
+          "Property Data": {
+            "StartFrame": 8,
+            "EndFrame": 12,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 5,
+            "Unk Value": 0
+          },
+          "Hitbox": {
+            "HitboxLocation1": 0,
+            "HitboxLocation2": 32768,
+            "Flags": "e1a2",
+            "Damage": 20,
+            "Heat": 15
+          }
+        },
+        "Property 6| Type ID 20": {
+          "Property Data": {
+            "StartFrame": 3,
+            "EndFrame": 3,
+            "Modifier": 0,
+            "Unk 1": 8,
+            "Unk 2": 0,
+            "Property Type ID": 20,
+            "Unk Value": 0
+          }
+        },
+        "Property 7| Type ID 2 = Audio": {
+          "Property Data": {
+            "StartFrame": 1,
+            "EndFrame": 1,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 2,
+            "Unk Value": 0
+          },
+          "Audio": {
+            "Unk 0": 9,
+            "Unk 1": 10,
+            "Unk 2": 0,
+            "Unk 3": 1,
+            "Unk 4": 0,
+            "Unk 5": 0
+          }
+        },
+        "Property 8| Type ID 2 = Audio": {
+          "Property Data": {
+            "StartFrame": 3,
+            "EndFrame": 3,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 2,
+            "Unk Value": 0
+          },
+          "Audio": {
+            "Unk 0": 2,
+            "Unk 1": 30,
+            "Unk 2": -1,
+            "Unk 3": -1,
+            "Unk 4": 3,
+            "Unk 5": -1
+          }
+        },
+        "Property 9| Type ID 2 = Audio": {
+          "Property Data": {
+            "StartFrame": 4,
+            "EndFrame": 4,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 2,
+            "Unk Value": 0
+          },
+          "Audio": {
+            "Unk 0": 2,
+            "Unk 1": 23,
+            "Unk 2": -1,
+            "Unk 3": -1,
+            "Unk 4": 3,
+            "Unk 5": -1
+          }
+        },
+        "Property 10| Type ID 2 = Audio": {
+          "Property Data": {
+            "StartFrame": 12,
+            "EndFrame": 12,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 2,
+            "Unk Value": 0
+          },
+          "Audio": {
+            "Unk 0": 2,
+            "Unk 1": 30,
+            "Unk 2": -1,
+            "Unk 3": -1,
+            "Unk 4": 3,
+            "Unk 5": -1
+          }
+        },
+        "Property 11| Type ID 2 = Audio": {
+          "Property Data": {
+            "StartFrame": 13,
+            "EndFrame": 13,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 2,
+            "Unk Value": 0
+          },
+          "Audio": {
+            "Unk 0": 2,
+            "Unk 1": 23,
+            "Unk 2": -1,
+            "Unk 3": -1,
+            "Unk 4": 3,
+            "Unk 5": -1
+          }
+        },
+        "Property 12| Type ID 30 = Hyper Armor Control": {
+          "Property Data": {
+            "StartFrame": 0,
+            "EndFrame": 27,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 30,
+            "Unk Value": 0
+          }
+        }
+      }
+    }
+  },
+  "p_weaponG_combo_heavy_02_st": {
+    "Move Data": {
+      "Unk 0": 16,
+      "MEP Table ID": "p_weaponG_atk_tame_st",
+      "Unk 1": 0,
+      "Unk 2": 2,
+      "Unk 3": 0,
+      "Unk 4": 24,
+      "GMT Table ID": "p_weaponG_combo_heavy_02_st",
+      "Unk 6": 0,
+      "Unk 7": 0,
+      "Unk 8": 0,
+      "Unk 9": 0,
+      "Unk 10": 0,
+      "Unk 11": 0,
+      "Unk 12": 3,
+      "Unk 13": 1,
+      "Unk 14": 1,
+      "Unk 15": 0,
+      "Unk 16": 0,
+      "Unk 17": 0,
+      "Unk 18": 0,
+      "Unk 19": 1280,
+      "Unk 20": 0,
+      "Unk 21": 0,
+      "Unk 22": 0,
+      "Unk 23": 0,
+      "Unk 24": 0
+    },
+    "Move Properties": {
+      "Filler Property Unk": 0,
+      "Properties Table": {
+        "Property 1| Type ID 3 = Follow Up Lock": {
+          "Property Data": {
+            "StartFrame": 0,
+            "EndFrame": 19,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 3,
+            "Unk Value": 0
+          }
+        },
+        "Property 2| Type ID 2 = Audio": {
+          "Property Data": {
+            "StartFrame": 11,
+            "EndFrame": 11,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 2,
+            "Unk Value": 0
+          },
+          "Audio": {
+            "Unk 0": 9,
+            "Unk 1": 2,
+            "Unk 2": 0,
+            "Unk 3": 1,
+            "Unk 4": 0,
+            "Unk 5": 0
+          }
+        },
+        "Property 3| Type ID 2 = Audio": {
+          "Property Data": {
+            "StartFrame": 2,
+            "EndFrame": 2,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 2,
+            "Unk Value": 0
+          },
+          "Audio": {
+            "Unk 0": 2,
+            "Unk 1": 18,
+            "Unk 2": -1,
+            "Unk 3": -1,
+            "Unk 4": 3,
+            "Unk 5": -1
+          }
+        },
+        "Property 4| Type ID 30 = Hyper Armor Control": {
+          "Property Data": {
+            "StartFrame": 0,
+            "EndFrame": 16,
+            "Modifier": 0,
+            "Unk 1": 0,
+            "Unk 2": 0,
+            "Property Type ID": 30,
+            "Unk Value": 0
           }
         }
       }
